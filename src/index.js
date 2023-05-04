@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
-import router from './App';
+import AppSetup from './App';
+import TodoList from './Practice/FirstComponent';
+import ParentComponent from './Practice/PpropsComponent';
+import Profile from './Practice/PpropsComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
+    {/* <AppSetup /> */}
+    {/* <TodoList /> */}
+    <Profile />
   </React.StrictMode>
 );
 
