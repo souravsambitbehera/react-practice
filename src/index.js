@@ -5,6 +5,8 @@ import AppSetup from './App';
 import TodoList from './Practice/FirstComponent';
 import ParentComponent from './Practice/PpropsComponent';
 import Profile from './Practice/PpropsComponent';
+import ObjectComponent from './Practice/ObjectComponent';
+import ShoppingCart from './Practice/ShoppingCart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +14,10 @@ root.render(
     {/* <RouterProvider router={router} /> */}
     {/* <AppSetup /> */}
     {/* <TodoList /> */}
-    <Profile />
+    {/* <Profile /> */}
+    {/* <ObjectComponent /> */}
+    {/* <Todo /> */}
+    <ShoppingCart />
   </React.StrictMode>
 );
 
