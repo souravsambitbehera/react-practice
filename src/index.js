@@ -7,6 +7,7 @@ import ParentComponent from './Practice/PpropsComponent';
 import Profile from './Practice/PpropsComponent';
 import ObjectComponent from './Practice/ObjectComponent';
 import ShoppingCart from './Practice/ShoppingCart';
+import EditProfile from './Practice/EditProfile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     {/* <Profile /> */}
     {/* <ObjectComponent /> */}
     {/* <Todo /> */}
-    <ShoppingCart />
+    {/* <ShoppingCart /> */}
+    <EditProfile />
   </React.StrictMode>
 );
 
