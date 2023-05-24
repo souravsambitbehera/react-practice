@@ -10,6 +10,11 @@ import ShoppingCart from './Practice/ShoppingCart';
 import EditProfile from './Practice/EditProfile';
 import ReducerDemo from './Practice/ReducerDemo';
 import ChallengeOne from './Coding/ChallengeOne';
+import Repractice from './Coding/Repractice';
+import ChallengheTwo from './Coding/ChallengheTwo';
+import ChallengeThree from './Coding/ChallengeThree';
+import ChallengeFour from './Coding/ChallengeFour';
+import ChallengeFive from './Coding/ChallengeFive';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +30,12 @@ root.render(
     {/* <ChallengeOne /> */}
     {/* <ChallengeTwo /> */}
     {/* <ReducerDemo/> */}
-    <ChallengeOne />
+    {/* <ChallengeOne /> */}
+    {/* <Repractice /> */}
+    {/* <ChallengheTwo /> */}
+    {/* <ChallengeThree /> */}
+    {/* <ChallengeFour /> */}
+    <ChallengeFive />
   </React.StrictMode>
 );
 
