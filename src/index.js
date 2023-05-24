@@ -8,9 +8,8 @@ import Profile from './Practice/PpropsComponent';
 import ObjectComponent from './Practice/ObjectComponent';
 import ShoppingCart from './Practice/ShoppingCart';
 import EditProfile from './Practice/EditProfile';
-import ChallengeOne from './Practice/ChallengeOne';
-import ChallengeTwo from './Practice/ChallengeTwo';
 import ReducerDemo from './Practice/ReducerDemo';
+import ChallengeOne from './Coding/ChallengeOne';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,7 +24,8 @@ root.render(
     {/* <EditProfile /> */}
     {/* <ChallengeOne /> */}
     {/* <ChallengeTwo /> */}
-    <ReducerDemo/>
+    {/* <ReducerDemo/> */}
+    <ChallengeOne />
   </React.StrictMode>
 );
 
