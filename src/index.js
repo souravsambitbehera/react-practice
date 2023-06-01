@@ -9,6 +9,7 @@ import ChallengeEight from './Coding/ChallengeEight';
 import ChallengeNine from './Coding/ChallengeNine';
 import ChallengeTen from './Coding/ChallengeTen';
 import UseReducer from './Learn/UseReducer';
+import ChallengeXi from './Coding/ChallengeXi';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,7 +38,8 @@ root.render(
     {/* <ChallengeEight /> */}
     {/* <ChallengeNine /> */}
     {/* <ChallengeTen /> */}
-    <UseReducer />
+    {/* <UseReducer /> */}
+    <ChallengeXi />
   </React.StrictMode>
 );
 
