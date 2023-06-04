@@ -10,10 +10,12 @@ import ChallengeNine from './Coding/ChallengeNine';
 import ChallengeTen from './Coding/ChallengeTen';
 import UseReducer from './Learn/UseReducer';
 import ChallengeXi from './Coding/ChallengeXi';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <App />
     {/* <RouterProvider router={router} /> */}
     {/* <AppSetup /> */}
     {/* <TodoList /> */}
@@ -39,7 +41,7 @@ root.render(
     {/* <ChallengeNine /> */}
     {/* <ChallengeTen /> */}
     {/* <UseReducer /> */}
-    <ChallengeXi />
+    {/* <ChallengeXi /> */}
   </React.StrictMode>
 );
 
