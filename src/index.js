@@ -1,47 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { RouterProvider } from 'react-router-dom';
-import ChallengeSix from './Coding/ChallengeSix';
-import UseContext from './Learn/UseContext';
-import ParentContext from './Learn/ContextProvider';
-import ChallengeSeven from './Coding/ChallengeSeven';
-import ChallengeEight from './Coding/ChallengeEight';
-import ChallengeNine from './Coding/ChallengeNine';
-import ChallengeTen from './Coding/ChallengeTen';
-import UseReducer from './Learn/UseReducer';
-import ChallengeXi from './Coding/ChallengeXi';
-import App from './App';
+
+import { Provider } from 'react-redux';
+import store from './Learn/store';
+import ReactRedux from './Learn/ReactRedux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    {/* <RouterProvider router={router} /> */}
-    {/* <AppSetup /> */}
-    {/* <TodoList /> */}
-    {/* <Profile /> */}
-    {/* <ObjectComponent /> */}
-    {/* <Todo /> */}
-    {/* <ShoppingCart /> */}
-    {/* <EditProfile /> */}
-    {/* <ChallengeOne /> */}
-    {/* <ChallengeTwo /> */}
-    {/* <ReducerDemo/> */}
-    {/* <ChallengeOne /> */}
-    {/* <Repractice /> */}
-    {/* <ChallengheTwo /> */}
-    {/* <ChallengeThree /> */}
-    {/* <ChallengeFour /> */}
-    {/* <ChallengeFive /> */}
-    {/* <ChallengeSix /> */}
-    {/* <UseContext /> */}
-    {/* <ParentContext /> */}
-    {/* <ChallengeSeven /> */}
-    {/* <ChallengeEight /> */}
-    {/* <ChallengeNine /> */}
-    {/* <ChallengeTen /> */}
-    {/* <UseReducer /> */}
-    {/* <ChallengeXi /> */}
+    <Provider store={store}>
+   <ReactRedux />
+   </Provider>
   </React.StrictMode>
 );
 
