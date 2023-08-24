@@ -4,12 +4,15 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import store from './Learn/store';
 import ReactRedux from './Learn/ReactRedux';
+import FormValidation from './Practice/FormValidation';
+import ProductsData from './Practice/ProductsData';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-   <ReactRedux />
+   {/* <FormValidation /> */}
+   <ProductsData/>
    </Provider>
   </React.StrictMode>
 );
