@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import AllProducts from './Components/AllProducts';
+import MyState from './Context/MyState';
 import { Provider } from 'react-redux';
-import store from './Learn/store';
-import ReactRedux from './Learn/ReactRedux';
-import FormValidation from './Practice/FormValidation';
-import ProductsData from './Practice/ProductsData';
+import store from './Redux/state';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-   {/* <FormValidation /> */}
-   <ProductsData/>
-   </Provider>
+    <MyState>
+    <AllProducts />
+    </MyState>
+    </Provider>
   </React.StrictMode>
 );
 
