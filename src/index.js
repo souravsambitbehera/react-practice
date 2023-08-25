@@ -5,13 +5,15 @@ import AllProducts from './Components/AllProducts';
 import MyState from './Context/MyState';
 import { Provider } from 'react-redux';
 import store from './Redux/state';
+import Calculator from './Components/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
     <MyState>
-    <AllProducts />
+    {/* <AllProducts /> */}
+    <Calculator />
     </MyState>
     </Provider>
   </React.StrictMode>
