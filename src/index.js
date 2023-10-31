@@ -6,6 +6,8 @@ import MyState from './Context/MyState';
 import { Provider } from 'react-redux';
 import store from './Redux/state';
 import Calculator from './Components/Calculator';
+import LifeCycleMethod from './day1/LifeCycleMethod';
+import SearchFunctionality from './SearchFunctionality/SearchFunctionality';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +15,9 @@ root.render(
     <Provider store={store}>
     <MyState>
     {/* <AllProducts /> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    {/* <LifeCycleMethod /> */}
+    <SearchFunctionality />
     </MyState>
     </Provider>
   </React.StrictMode>
