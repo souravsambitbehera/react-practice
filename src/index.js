@@ -8,16 +8,18 @@ import store from './Redux/state';
 import Calculator from './Components/Calculator';
 import LifeCycleMethod from './day1/LifeCycleMethod';
 import SearchFunctionality from './SearchFunctionality/SearchFunctionality';
+import MuiComponent from './Components/MuiComponent';
+import ResponsiveAppBar from './Components/MuiComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
     <MyState>
-    {/* <AllProducts /> */}
-    {/* <Calculator /> */}
-    {/* <LifeCycleMethod /> */}
-    <SearchFunctionality />
+   
+    {/* <SearchFunctionality /> */}
+    {/* <MuiComponent /> */}
+    <ResponsiveAppBar />
     </MyState>
     </Provider>
   </React.StrictMode>
